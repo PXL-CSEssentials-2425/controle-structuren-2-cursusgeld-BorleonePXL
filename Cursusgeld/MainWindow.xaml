@@ -1,0 +1,23 @@
+﻿<Window x:Class="Cursusgeld.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Cursusgeld"
+        mc:Ignorable="d"
+        Title="Cursusjaar - Schrikkeljaar" Height="450" Width="800">
+    <Grid>
+        <Label Content="Jaar:" HorizontalAlignment="Left" Margin="104,79,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="Aantal Lesuren:" HorizontalAlignment="Left" Margin="104,131,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="Inschrijvingsgeld:" HorizontalAlignment="Left" Margin="104,191,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Button Name="numeriekButton" Content="Test Numeriek" HorizontalAlignment="Left" Margin="104,319,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="22" Click="numeriekButton_Click"/>
+        <Button Name="calcButton" Content="Berkenenen" HorizontalAlignment="Left" Margin="362,319,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="22" Click="calcButton_Click" />
+        <Button Name="closeButton" Content="Afsluiten" HorizontalAlignment="Left" Margin="602,319,0,0" VerticalAlignment="Top" FontSize="22" FontWeight="Bold" Click="closeButton_Click"/>
+        <TextBox Name="yearTextBox" HorizontalAlignment="Left" Margin="317,83,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="hoursTextBox" HorizontalAlignment="Left" Margin="317,135,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="enrolTextBox" HorizontalAlignment="Left" Margin="317,199,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="numTextBox" HorizontalAlignment="Left" Margin="591,108,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" IsEnabled="False" FontSize="14" BorderThickness="0,0,0,0" />
+        <TextBox Name="leapYearTextBox" HorizontalAlignment="Left" Margin="591,171,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" BorderBrush="#FFABADB3" IsEnabled="False" BorderThickness="0,0,0,0"/>
+
+    </Grid>
+</Window>
